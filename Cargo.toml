@@ -181,7 +181,7 @@ opt-level = 1
 [profile.release]
 debug = true
 incremental = true
-lto = "thin"
+lto = true
 
 # windows-gnu should use it until rust-lang/rust#98302 is not fixed
 [profile.release-no-lto]
